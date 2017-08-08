@@ -1,7 +1,7 @@
 #BalloonRelativeLayout
 #欢迎star~感谢
 ### 效果图预览
-![](/art/countdownviewx.gif)
+![](/art/countdownview.gif)
 
 #属性值：
 
