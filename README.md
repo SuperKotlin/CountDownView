@@ -1,4 +1,4 @@
-#BalloonRelativeLayout
+#CountDownView
 #欢迎star~感谢
 ### 效果图预览
 ![](/art/countdownview.gif)
@@ -67,10 +67,10 @@
 	```
 
 	    allprojects {
-		  	 repositories {
+		   repositories {
 				...
 				maven { url 'https://jitpack.io' }
-			}
+		    }
 	    }
 
 	```
@@ -81,7 +81,9 @@
 	```
 
 			dependencies {
+
 	        	compile 'com.github.SuperKotlin:CountDownView:1.0.0'
+
 			}
 
 	```
