@@ -80,11 +80,11 @@
 	
 	```
 
-			dependencies {
+		dependencies {
 
-	        	compile 'com.github.SuperKotlin:CountDownView:1.0.0'
+	    	compile 'com.github.SuperKotlin:CountDownView:1.0.0'
 
-			}
+		}
 
 	```
 
