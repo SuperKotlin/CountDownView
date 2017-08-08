@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.zhuyong.countdownciew.CountDownView
+            android:id="@+id/cd_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cd_animator_time="8"
+            app:cd_arc_color="#000000"
+            app:cd_arc_width="3dp"
+            app:cd_bg_color="#FF4081"
+            app:cd_circle_radius="40dp"
+            app:cd_location="top"
+            app:cd_retreat_type="forward"
+            app:cd_text_color="#000000"
+            app:cd_text_size="14sp" />
+
+        <com.zhuyong.countdownciew.CountDownView
+            android:id="@+id/cd_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            app:cd_animator_time="8"
+            app:cd_arc_color="#000000"
+            app:cd_arc_width="3dp"
+            app:cd_bg_color="#FF4081"
+            app:cd_circle_radius="40dp"
+            app:cd_location="top"
+            app:cd_retreat_type="back"
+            app:cd_text_color="#000000"
+            app:cd_text_size="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <com.zhuyong.countdownciew.CountDownView
+            android:id="@+id/cd_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cd_animator_time="6"
+            app:cd_animator_time_unit="S"
+            app:cd_arc_color="#000000"
+            app:cd_arc_width="2dp"
+            app:cd_bg_color="#AFF2F2"
+            app:cd_circle_radius="40dp"
+            app:cd_location="left"
+            app:cd_retreat_type="forward"
+            app:cd_text_color="#FF4081"
+            app:cd_text_size="14sp" />
+
+        <com.zhuyong.countdownciew.CountDownView
+            android:id="@+id/cd_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            app:cd_animator_time="6"
+            app:cd_animator_time_unit="S"
+            app:cd_arc_color="#000000"
+            app:cd_arc_width="2dp"
+            app:cd_bg_color="#AFF2F2"
+            app:cd_circle_radius="40dp"
+            app:cd_location="right"
+            app:cd_retreat_type="forward"
+            app:cd_text_color="#FF4081"
+            app:cd_text_size="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <com.zhuyong.countdownciew.CountDownView
+            android:id="@+id/cd_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cd_animator_time="6"
+            app:cd_animator_time_unit="S"
+            app:cd_arc_color="#000000"
+            app:cd_arc_width="2dp"
+            app:cd_bg_color="#AFF2F2"
+            app:cd_circle_radius="40dp"
+            app:cd_location="top"
+            app:cd_retreat_type="forward"
+            app:cd_text_color="#FF4081"
+            app:cd_text_size="14sp" />
+
+        <com.zhuyong.countdownciew.CountDownView
+            android:id="@+id/cd_view6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            app:cd_animator_time="6"
+            app:cd_animator_time_unit="S"
+            app:cd_arc_color="#000000"
+            app:cd_arc_width="2dp"
+            app:cd_bg_color="#AFF2F2"
+            app:cd_circle_radius="40dp"
+            app:cd_location="bottom"
+            app:cd_retreat_type="forward"
+            app:cd_text_color="#FF4081"
+            app:cd_text_size="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <com.zhuyong.countdownciew.CountDownView
+            android:id="@+id/cd_view7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cd_animator_time="15"
+            app:cd_animator_time_unit="秒"
+            app:cd_arc_color="#F7E515"
+            app:cd_arc_width="10dp"
+            app:cd_bg_color="#C189C1"
+            app:cd_circle_radius="45dp"
+            app:cd_location="top"
+            app:cd_retreat_type="forward"
+            app:cd_text_color="#FA0303"
+            app:cd_text_size="22sp" />
+
+        <com.zhuyong.countdownciew.CountDownView
+            android:id="@+id/cd_view8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            app:cd_animator_time="15"
+            app:cd_animator_time_unit="秒"
+            app:cd_arc_color="#F7E515"
+            app:cd_arc_width="5dp"
+            app:cd_bg_color="#03FA7E"
+            app:cd_circle_radius="45dp"
+            app:cd_location="top"
+            app:cd_retreat_type="forward"
+            app:cd_text_color="#FA0303"
+            app:cd_text_size="22sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:text="开始" />
+
+</LinearLayout>
