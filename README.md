@@ -88,7 +88,7 @@
 
 
 
-### 详细博客介绍地址： [启动页倒计时](http://www.jianshu.com/p/619cc65d66a5)
+### 详细博客介绍地址： [自定义View_手撸一个启动页倒计时View](http://www.jianshu.com/p/2b5ef5e18fe5)
 
 ### 关于我
  - 我的简书：[BraveJoy](http://www.jianshu.com/users/c96d2a9d160f/timeline)
