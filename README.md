@@ -73,17 +73,17 @@
 			}
 	    }
 
-
 	```
 
 
  -  **Add the dependency**
 	
 	```
-		
-		dependencies {
-	         compile 'com.github.SuperKotlin:countdownview:1.0.0'
-		}
+
+			dependencies {
+	        	compile 'com.github.SuperKotlin:CountDownView:1.0.0'
+			}
+
 	```
 
 
